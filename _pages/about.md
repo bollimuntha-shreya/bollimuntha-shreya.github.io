@@ -17,8 +17,11 @@ redirect_from:
 
 I am a robotics researcher and an aspiring PhD candidate, currently in my final year of Dual Degree (B Tech and Master of Science in Electronics and Communication Engineering by Research) at IIIT Hyderabad. My research is centered on developing intelligent robotic systems that can learn complex manipulation tasks.
 <br><br>
-At the Robotics Research Centre (RRC), I have had the privilege of working under the guidance of Prof. K. Madhava Krishna (https://www.iiit.ac.in/people/faculty/mkrishna/) and Prof. Nagamanikandan Govindan (https://nagamanigi.wixsite.com/home). My work is focused around dual arm manipulation, with publications accepted at major conferences like ICRA and IROS.
+At the Robotics Research Centre (RRC), I have had the privilege of working under the guidance of  
+Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and  
+Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a>. My work is focused around dual arm manipulation, with publications accepted at major conferences like ICRA and IROS.
 <br><br>
+
 Beyond robotics, I have gained experience in software engineering as an intern at Stripe, where I developed an anomaly detection system, and have explored applied machine learning through various projects. I am driven by the goal of creating autonomous systems that can robustly perform meaningful tasks in the real world.
 <br><br>
 <!-- Outside the lab, music plays a significant role in my life. I am a Grade 7 certified pianist from Trinity College of Music London and have represented my institution in various inter-college music competitions. I find that the discipline and creativity required in music complement my technical work in unexpected ways. When not immersed in research or playing piano, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity. -->
