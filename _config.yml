@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : cduvallet
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -249,7 +249,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Hyderabad/India # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -266,6 +266,11 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+
+
+theme: null
+plugins:
+  - jekyll-remote-theme
 
 
 # Archives
