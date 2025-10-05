@@ -12,20 +12,17 @@ redirect_from:
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=P0DmcjPhTVQDSVsO6eLpfLlblpD7aYEdFi8dEehI1TI&cl=ffffff&w=a"></script>
 </div>
 
-<span class="small_font">
 <h3>About Me</h3>
 
+<span class="small_font">
 I am a robotics researcher and an aspiring PhD candidate, currently in my final year of Dual Degree (B Tech and Master of Science in Electronics and Communication Engineering by Research) at IIIT Hyderabad. My research is centered on developing intelligent robotic systems that can learn complex manipulation tasks.
 <br><br>
 At the Robotics Research Centre (RRC), I have had the privilege of working under the guidance of  
-Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and  
-Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a>. My work is focused around dual arm manipulation, with publications accepted at major conferences like ICRA and IROS.
+Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a>. My work is focused around dual arm manipulation, with publications accepted at major conferences like ICRA and IROS.
 <br><br>
-
 Beyond robotics, I have gained experience in software engineering as an intern at Stripe, where I developed an anomaly detection system, and have explored applied machine learning through various projects. I am driven by the goal of creating autonomous systems that can robustly perform meaningful tasks in the real world.
 <br><br>
 <!-- Outside the lab, music plays a significant role in my life. I am a Grade 7 certified pianist from Trinity College of Music London and have represented my institution in various inter-college music competitions. I find that the discipline and creativity required in music complement my technical work in unexpected ways. When not immersed in research or playing piano, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity. -->
-
 Outside the lab, I lead a balanced life filled with music and sports. I am a Grade 7 certified pianist from Trinity College of Music London and have competed in various inter-college music competitions. I'm also an active participant in sports, having won competitions in both basketball and swimming. I find that the discipline from music and the teamwork from sports complement my technical work in unexpected ways. When not immersed in research, playing piano, or on the court, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity.
 </span>
 
