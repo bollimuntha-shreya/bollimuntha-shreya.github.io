@@ -16,12 +16,12 @@ redirect_from:
 
 <span class="small_font">
 I am a robotics researcher and an aspiring PhD candidate, currently in my final year of Dual Degree (B Tech and Master of Science in Electronics and Communication Engineering by Research) at IIIT Hyderabad. My research is centered on developing intelligent robotic systems that can learn complex manipulation tasks.
-<br>
+<br><br>
 At the Robotics Research Centre (RRC), I have had the privilege of working under the guidance of  
 Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a>. My work is focused around dual arm manipulation, with publications accepted at major conferences like ICRA and IROS.
-<br>
+<br><br>
 Beyond robotics, I have gained experience in software engineering as an intern at Stripe, where I developed an anomaly detection system, and have explored applied machine learning through various projects. I am driven by the goal of creating autonomous systems that can robustly perform meaningful tasks in the real world.
-<br>
+<br><br>
 <!-- Outside the lab, music plays a significant role in my life. I am a Grade 7 certified pianist from Trinity College of Music London and have represented my institution in various inter-college music competitions. I find that the discipline and creativity required in music complement my technical work in unexpected ways. When not immersed in research or playing piano, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity. -->
 Outside the lab, I lead a balanced life filled with music and sports. I am a Grade 7 certified pianist from Trinity College of Music London and have competed in various inter-college music competitions. I'm also an active participant in sports, having won competitions in both basketball and swimming. I find that the discipline from music and the teamwork from sports complement my technical work in unexpected ways. When not immersed in research, playing piano, or on the court, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity.
 </span>
@@ -42,7 +42,7 @@ My research interest lies in enabling robots to master complex, real-world manip
     <div class="title">DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
     Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
-	<a target="_blank" class="tab_paper" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11127487">paper</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Code</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Website</a></div>
+	<a target="_blank" class="tab_paper" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11127487">paper</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Code</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Website</a>
     </div>
   </div>
 </div>
@@ -52,7 +52,7 @@ My research interest lies in enabling robots to master complex, real-world manip
     <div class="title">DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps</div>
     <div class="sub-title"><i><b>IROS 2025</b></i><br>
     Md Faizal Karim*, Mohammed Saad Hashmi*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mahesh Reddy Tapeti, Gaurav Singh, Nagamanikandan Govindan, K Madhava Krishna
-    <a target="_blank" class="tab_paper" target="_blank" href="https://arxiv.org/abs/2503.08358">paper</a><a target="_blank"  class="tab_paper" href="https://github.com/DG16M/DG16M-dataset">Code</a><a target="_blank"  class="tab_paper" href="https://dg16m.github.io/DG-16M/">Website</a></div>
+    <a target="_blank" class="tab_paper" target="_blank" href="https://arxiv.org/abs/2503.08358">paper</a><a target="_blank"  class="tab_paper" href="https://github.com/DG16M/DG16M-dataset">Code</a><a target="_blank"  class="tab_paper" href="https://dg16m.github.io/DG-16M/">Website</a>
     </div>
   </div>
 </div>
@@ -61,7 +61,7 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">DART: Learning-Enhanced Model Predictive Control for Dual-Arm Non-Prehensile Manipulation</div>
     <div class="sub-title"><i><b>Submitted (Under Review)</b></i></div>
-    <a target="_blank" class="tab_paper" target="_blank" href="./papers/ICRA26_3775_MS.pdf>paper</a><a target="_blank"  class="tab_paper" href="https://github.com/dart-icra/DART-Dual-Arm-Non-Prehensile-Manipulation">Code</a><a target="_blank"  class="tab_paper" href="https://dart-icra.github.io/dart/">Website</a></div>
+    <a target="_blank" class="tab_paper" target="_blank" href="./papers/ICRA26_3775_MS.pdf">paper</a><a target="_blank"  class="tab_paper" href="https://github.com/dart-icra/DART-Dual-Arm-Non-Prehensile-Manipulation">Code</a><a target="_blank"  class="tab_paper" href="https://dart-icra.github.io/dart/">Website</a>
   </div>
 </div>
 
