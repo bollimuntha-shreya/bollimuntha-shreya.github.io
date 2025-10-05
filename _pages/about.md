@@ -11,7 +11,6 @@ redirect_from:
 <div hidden="hidden">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=P0DmcjPhTVQDSVsO6eLpfLlblpD7aYEdFi8dEehI1TI&cl=ffffff&w=a"></script>
 </div>
-
 <h3>About Me</h3>
 
 <span class="small_font">
@@ -35,7 +34,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 
 <div class="recent_updates">Publications</div>
 
-<span style="font-size:14px;margin-bottom: -25px;display: block;">*Equal Authors / <span class="highlight">Highlighted Papers</span></span>
+<span style="font-size:14px;margin-bottom: -25px;display: block;">*Equal Authors <!--/ <span class="highlight">Highlighted Papers</span>--></span>
 
 <div class="research-block">
   <div class="right">
