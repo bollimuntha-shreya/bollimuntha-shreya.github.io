@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bipasha Sen"
+title                    : "Bollimuntha Shreya"
 title_separator          : "-"
-name                     : &name "Bipasha Sen"
-description              : &description "Bipasha Sen"
-url                      : https://bipashasen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Bollimuntha Shreya"
+description              : &description "Bollimuntha Shreya"
+url                      : https://bollimuntha-shreya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bipashasen/bipashasen.github.io"
+repository               : "bollimuntha-shreya/shreya-bollimuntha.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,13 +78,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Bipasha Sen"
-  avatar           : "bipasha_sen.jpg"
-  bio              : "Ph.D. at MIT"
+  name             : "Bollimuntha Shreya"
+  avatar           : "Shreya.jpeg"
+  bio              : "IIIT Hyderabad"
   location         : "Hyderabad, India"
   employer         :
-  googlescholar    : "GZZCH-8AAAAJ&hl"
-  email            : "bise@mit.edu"
+  googlescholar    : "8M9KtXgAAAAJ&hl"
+  email            : "shreya.bollimuntha@research.iiit.ac.in"
   uri              :
   bitbucket        :
   codepen          :
@@ -92,23 +92,23 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "bipashasen"
+  github           : "bollimuntha-shreya"
   google_plus      :
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         : "bipasha-sen-540a4792"
+  linkedin         : "shreya-bollimuntha-99bb2b279"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "bipashasen31" 
+  twitter          : "__Shreya_B__" 
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCU1TMnEt0J1UJZfMW1Gixgg"
+  youtube          : #"UCU1TMnEt0J1UJZfMW1Gixgg"
   wikipedia        :
 
 
