@@ -42,7 +42,7 @@ My research interest lies in enabling robots to master complex, real-world manip
     <div class="title">DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
     Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
-	<a target="_blank" class="tab_paper" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11127487">paper</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Code</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Website</a>
+	<a target="_blank" class="tab_paper" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11127487">Paper</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Code</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Website</a>
     </div>
   </div>
 </div>
@@ -50,9 +50,8 @@ My research interest lies in enabling robots to master complex, real-world manip
 <div class="research-block">
   <div class="right">
     <div class="title">DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps</div>
-    <div class="sub-title"><i><b>IROS 2025</b></i><br>
-    Md Faizal Karim*, Mohammed Saad Hashmi*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mahesh Reddy Tapeti, Gaurav Singh, Nagamanikandan Govindan, K Madhava Krishna
-    <a target="_blank" class="tab_paper" target="_blank" href="https://arxiv.org/abs/2503.08358">paper</a><a target="_blank"  class="tab_paper" href="https://github.com/DG16M/DG16M-dataset">Code</a><a target="_blank"  class="tab_paper" href="https://dg16m.github.io/DG-16M/">Website</a>
+    <div class="sub-title"><i><b>Under Review</b></i><br>
+    <a target="_blank" class="tab_paper" target="_blank" href="https://arxiv.org/abs/2503.08358">Paper</a><a target="_blank"  class="tab_paper" href="https://github.com/DG16M/DG16M-dataset">Code</a><a target="_blank"  class="tab_paper" href="https://dg16m.github.io/DG-16M/">Website</a>
     </div>
   </div>
 </div>
@@ -60,8 +59,9 @@ My research interest lies in enabling robots to master complex, real-world manip
 <div class="research-block">
   <div class="right">
     <div class="title">DART: Learning-Enhanced Model Predictive Control for Dual-Arm Non-Prehensile Manipulation</div>
-    <div class="sub-title"><i><b>Submitted (Under Review)</b></i></div>
-    <a target="_blank" class="tab_paper" target="_blank" href="./papers/ICRA26_3775_MS.pdf">paper</a><a target="_blank"  class="tab_paper" href="https://github.com/dart-icra/DART-Dual-Arm-Non-Prehensile-Manipulation">Code</a><a target="_blank"  class="tab_paper" href="https://dart-icra.github.io/dart/">Website</a>
+    <div class="sub-title"><i><b>ICRA 2025</b></i><br>
+    Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
+    <a target="_blank" class="tab_paper" target="_blank" href="./papers/ICRA26_3775_MS.pdf">Paper</a><a target="_blank"  class="tab_paper" href="https://github.com/dart-icra/DART-Dual-Arm-Non-Prehensile-Manipulation">Code</a><a target="_blank"  class="tab_paper" href="https://dart-icra.github.io/dart/">Website</a>
   </div>
 </div>
 
