@@ -14,7 +14,7 @@ redirect_from:
 
 <h3>About Me</h3>
 
-<span class="small_font">
+<span class="research-img">
 I am a robotics researcher and an aspiring PhD candidate, currently in my final year of Dual Degree (B Tech and Master of Science in Electronics and Communication Engineering by Research) at IIIT Hyderabad. My research is centered on developing intelligent robotic systems that can learn complex manipulation tasks.
 <br><br>
 At the Robotics Research Centre (RRC), I have had the privilege of working under the guidance of  
@@ -27,7 +27,7 @@ Outside the lab, I lead a balanced life filled with music and sports. I am a Gra
 </span>
 
 <h3>Research Interests</h3>
-<span class="small_font">
+<span class="research-img">
 My research interest lies in enabling robots to master complex, real-world manipulation tasks with the fluidity and adaptability of humans. I am particularly drawn to the intersection of reinforcement learning, control theory, and optimization. My goal is to develop algorithms that allow robots, especially in dual-arm settings, to learn efficiently by leveraging underlying physical and kinematic models. I believe the future of robotics hinges not just on collecting massive datasets, but on creating sample-efficient learning frameworks that can reason about contact, dynamics, and collaboration to solve tasks that are currently beyond their reach.
 </span>
 
@@ -41,7 +41,8 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
-    Md Faizal Karim⭐, Shreya Bollimuntha⭐, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
+    Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
+	class="tab_paper" target="_blank" href="https://www.bmvc2021-virtualconference.com/assets/papers/1468.pdf">paper</a><a target="_blank"  class="tab_paper" href="https://youtu.be/_famGVaem-8">video</a><a target="_blank"  class="tab_paper" href="http://bhaasha.iiit.ac.in/lipwav">portal</a></div>
     </div>
   </div>
 </div>
@@ -50,7 +51,7 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps</div>
     <div class="sub-title"><i><b>IROS 2025</b></i><br>
-    Md Faizal Karim, Mohammed Saad Hashmi, Shreya Bollimuntha, Mahesh Reddy Tapeti, Gaurav Singh, Nagamanikandan Govindan, K Madhava Krishna
+    Md Faizal Karim*, Mohammed Saad Hashmi*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mahesh Reddy Tapeti, Gaurav Singh, Nagamanikandan Govindan, K Madhava Krishna
     </div>
   </div>
 </div>
