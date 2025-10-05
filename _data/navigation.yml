@@ -2,12 +2,12 @@
 main:
   - title: "Updates"
     url: /updates/
-    
-  - title: "Blog"
-    url: /blog/
 
   - title: "Beyond"
-    url: /myart/
+    url: /beyond_academics/
 
   - title: "CV"
     url: Resume/Bollimuntha_Shreya_ML_Resume_30_July.pdf
+
+  #- title: "Blog"
+   # url: /blog/

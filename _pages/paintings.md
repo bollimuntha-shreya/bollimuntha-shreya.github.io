@@ -1,6 +1,6 @@
 ---
 title: ""
-permalink: /myart/
+permalink: /beyond_academics/
 author_profile: true
 ---
 <style>
