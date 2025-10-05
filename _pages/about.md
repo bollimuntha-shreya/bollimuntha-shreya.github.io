@@ -30,6 +30,9 @@ Outside the lab, I lead a balanced life filled with music and sports. I am a Gra
 My research interest lies in enabling robots to master complex, real-world manipulation tasks with the fluidity and adaptability of humans. I am particularly drawn to the intersection of reinforcement learning, control theory, and optimization. My goal is to develop algorithms that allow robots, especially in dual-arm settings, to learn efficiently by leveraging underlying physical and kinematic models. I believe the future of robotics hinges not just on collecting massive datasets, but on creating sample-efficient learning frameworks that can reason about contact, dynamics, and collaboration to solve tasks that are currently beyond their reach.
 </span>
 
+<!-- <div class="recent_updates">News</div>
+Your news will go here -->
+
 
 
 <div class="recent_updates">Publications</div>
@@ -63,6 +66,8 @@ My research interest lies in enabling robots to master complex, real-world manip
     <a target="_blank" class="tab_paper" target="_blank" href="./papers/ICRA26_3775_MS.pdf">Paper</a><a target="_blank"  class="tab_paper" href="https://github.com/dart-icra/DART-Dual-Arm-Non-Prehensile-Manipulation">Code</a><a target="_blank"  class="tab_paper" href="https://dart-icra.github.io/dart/">Website</a>
   </div>
 </div>
+
+
 
 <div class="recent_updates">Projects</div>
 <!-- Your projects will go here -->
