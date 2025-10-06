@@ -33,7 +33,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 
 <div class="recent_updates">Publications</div>
 
-<span style="font-size:14px;margin-bottom: -25px;display: block;">*Equal Authors <!--/ <span class="highlight">Highlighted Papers</span>--></span>
+<span style="font-size:14px;margin-bottom: -25px;display: block;">*Equal Contribution <!--/ <span class="highlight">Highlighted Papers</span>--></span>
 
 <div class="research-block">
   <div class="right">
@@ -63,13 +63,51 @@ My research interest lies in enabling robots to master complex, real-world manip
   </div>
 </div>
 
+<style>
+  .recent_updates {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .updates {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: -3px;
+  }
+
+  .updates li {
+    margin-bottom: 8px;
+    line-height: 1.5em;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .updates-month {
+    min-width: 70px;
+    font-weight: bold;
+    color: #555;
+    display: inline-block;
+  }
+
+  .updates-content {
+    flex: 1;
+  }
+
+  .updates img {
+    vertical-align: middle;
+  }
+</style>
 
 
-<div class="recent_updates">News</div>
+
+<div class="recent_updates">News and Announcements</div>
  <ul style="margin-top:-3px" class="updates">
 	<!-- <li><span class="updates-month">JUL '24</span> <span class="updates-content">"Constrained 6-DoF Grasp Generation on Complex Shapes for Improved Dual-Arm Manipulation" accepted at <b>IROS 2024</b>!</span></li>
 	<li><span class="updates-month">JAN '24</span> <span class="updates-content">2 papers accepted at <b>ICRA 2024</b>!</span></li>
 	<li><span class="updates-month">NOV '23</span> <span class="updates-content">Presented "EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning" at <b>CoRL Workshop 2023</b><a target="_blank" href="https://sites.google.com/view/corl2023-prl/home"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!</span></li> -->
+
+  <!-- <li><span class="updates-month">OCT '25</span> <span class="updates-content">Presented "DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps" at <b>IROS 2025</b> in Hangzhou, China.</span></li> -->
   <li><span class="updates-month">JUL '25</span> <span class="updates-content">Completed internship at <a target="_blank" href="https://stripe.com/in">Stripe</a>! Invited for a Friday Fireside Chat with John and Patrick Collison to present my work done at the internship.</span></li>
 	<li><span class="updates-month">JUN '25</span> <span class="updates-content">"DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps" accepted at <b>IROS 2025</b><a target="_blank" href="https://dg16m.github.io/DG-16M/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
   <li><span class="updates-month">MAY '25</span> <span class="updates-content">Presented "DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" at <b>ICRA 2025</b> in Atlanta, USA.</span></li>
