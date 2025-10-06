@@ -44,7 +44,7 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
-    Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
+    Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna<br>
 	<a target="_blank" class="tab_paper" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11127487">Paper</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Code</a><a target="_blank"  class="tab_paper" href="https://dualarmvil.github.io/Dual-Arm-VIL/">Website</a>
     </div>
   </div>
@@ -59,7 +59,7 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
-    Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna
+    Md Faizal Karim*, <b style="color:#a115a0">Shreya Bollimuntha</b>*, Mohammed Saad Hashmi, Autrio Das, Gaurav Singh, Srinath Sridhar, Arun Kumar Singh, Nagamanikandan Govindan, K Madhava Krishna<br>
     <a target="_blank" class="tab_paper" target="_blank" href="https://arxiv.org/abs/2503.08358">Paper</a><a target="_blank"  class="tab_paper" href="https://github.com/DG16M/DG16M-dataset">Code</a><a target="_blank"  class="tab_paper" href="https://dg16m.github.io/DG-16M/">Website</a>
     </div>
   </div>
