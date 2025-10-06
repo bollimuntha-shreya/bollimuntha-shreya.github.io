@@ -71,7 +71,7 @@ My research interest lies in enabling robots to master complex, real-world manip
   }
 
   .updates {
-    list-style-type: none;
+    list-style: none;
     padding-left: 0;
     margin-top: -3px;
   }
@@ -80,7 +80,8 @@ My research interest lies in enabling robots to master complex, real-world manip
     margin-bottom: 8px;
     line-height: 1.5em;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start;        /* keep items top-aligned */
+    justify-content: flex-start;    /* ensure left alignment */
   }
 
   .updates-month {
@@ -88,10 +89,14 @@ My research interest lies in enabling robots to master complex, real-world manip
     font-weight: bold;
     color: #555;
     display: inline-block;
+    text-align: left;
   }
 
   .updates-content {
     flex: 1;
+    display: block;
+    text-align: left;               /* <-- ensures content is left-aligned */
+    word-wrap: break-word;
   }
 
   .updates img {
