@@ -36,6 +36,11 @@ My research interest lies in enabling robots to master complex, real-world manip
 <span style="font-size:14px;margin-bottom: -25px;display: block;">*Equal Contribution <!--/ <span class="highlight">Highlighted Papers</span>--></span>
 
 <div class="research-block">
+  <div class="left">
+		<span class="research-img">
+			<img src="/papers/DAVIL_teaser.gif">
+		</span>
+	</div>
   <div class="right">
     <div class="title">DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
@@ -46,6 +51,11 @@ My research interest lies in enabling robots to master complex, real-world manip
 </div>
 
 <div class="research-block">
+  <div class="left">
+		<span class="research-img">
+			<img src="/papers/DG16M_teaser.gif">
+		</span>
+	</div>
   <div class="right">
     <div class="title">DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps</div>
     <div class="sub-title"><i><b>ICRA 2025</b></i><br>
@@ -56,6 +66,11 @@ My research interest lies in enabling robots to master complex, real-world manip
 </div>
 
 <div class="research-block">
+<div class="left">
+		<span class="research-img">
+			<img src="/papers/DART_teaser.gif">
+		</span>
+	</div>
   <div class="right">
     <div class="title">DART: Learning-Enhanced Model Predictive Control for Dual-Arm Non-Prehensile Manipulation</div>
      <div class="sub-title"><i><b>Under Review</b></i><br>
@@ -117,7 +132,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 	<li><span class="updates-month">JUN '25</span> <span class="updates-content">"DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps" accepted at <b>IROS 2025</b><a target="_blank" href="https://dg16m.github.io/DG-16M/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
   <li><span class="updates-month">MAY '25</span> <span class="updates-content">Presented "DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" at <b>ICRA 2025</b> in Atlanta, USA.</span></li>
   <li><span class="updates-month">MAY '25</span> <span class="updates-content">Started internship at <a target="_blank" href="https://stripe.com/in">Stripe</a>!</span></li>
-	<li><span class="updates-month">APR '25</span> <span class="updates-content">Served as reviewer for <a target="_blank" href="https://2025.ieee-icra.org/">ICRA 2025</a></span></li>
+	<li><span class="updates-month">APR '25</span> <span class="updates-content">Served as reviewer for <a target="_blank" href="https://2025.ieee-icra.org/">ICRA 2025</a>.</span></li>
 	<li><span class="updates-month">JAN '25</span> <span class="updates-content">"DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" accepted for presentation at <b>ICRA 2025</b><a target="_blank" href="https://dualarmvil.github.io/Dual-Arm-VIL/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
 </ul>
 
