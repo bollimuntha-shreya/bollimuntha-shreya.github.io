@@ -2,6 +2,8 @@
 main:
  #- title: "Updates"
   #  url: /updates/
+  - title: "Projects"
+    url: /projects/
 
   - title: "Beyond"
     url: /beyond_academics/
