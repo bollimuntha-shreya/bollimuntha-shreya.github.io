@@ -1,4 +1,0 @@
-[console_scripts]
-image_node = camera.image_subscriber:main
-imu_node = camera.imu_subscriber:main
-listen_node = camera.talker_subscriber:main

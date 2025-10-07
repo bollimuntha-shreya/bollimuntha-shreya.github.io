@@ -1,4 +1,0 @@
-Invoking command in '/home/faizal/ros2_ws/build/articubot_one': CONDA_PROMPT_MODIFIER=(ros) /usr/bin/cmake --build /home/faizal/ros2_ws/build/articubot_one -- -j8 -l8
-Invoked command in '/home/faizal/ros2_ws/build/articubot_one' returned '0': CONDA_PROMPT_MODIFIER=(ros) /usr/bin/cmake --build /home/faizal/ros2_ws/build/articubot_one -- -j8 -l8
-Invoking command in '/home/faizal/ros2_ws/build/articubot_one': CONDA_PROMPT_MODIFIER=(ros) /usr/bin/cmake --install /home/faizal/ros2_ws/build/articubot_one
-Invoked command in '/home/faizal/ros2_ws/build/articubot_one' returned '0': CONDA_PROMPT_MODIFIER=(ros) /usr/bin/cmake --install /home/faizal/ros2_ws/build/articubot_one
