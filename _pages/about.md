@@ -14,15 +14,20 @@ redirect_from:
 <h3>About Me</h3>
 
 <span class="small_font">
+
+I'm a robotics researcher in my final year of Dual Degree at IIIT Hyderabad, focused on developing intelligent robotic systems for complex manipulation tasks. At the <a target="_blank" href="https://robotics.iiit.ac.in/">Robotics Research Centre (RRC)</a>, I work under Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a> on dual-arm manipulation, with publications accepted at ICRA and IROS.<br><br>
+Beyond robotics, I gained software engineering experience at Stripe developing an anomaly detection system and have explored applied machine learning through various projects. My goal is to create autonomous systems that robustly perform meaningful tasks in real-world environments.<br><br>
+Outside the lab, I'm a Grade 7 certified pianist from Trinity College London and an active athlete with wins in basketball and swimming competitions. I find that discipline from music and teamwork from sports complement my technical work. I also love traveling—experiencing different cultures broadens my perspective and fuels my curiosity.
+<!-- 
 I am a robotics researcher and an aspiring PhD candidate, currently in my final year of Dual Degree (B Tech and Master of Science in Electronics and Communication Engineering by Research) at IIIT Hyderabad. My research is centered on developing intelligent robotic systems that can learn complex manipulation tasks.
 <br><br>
 At the Robotics Research Centre (RRC), I have had the privilege of working under the guidance of  
 Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a>. My work is focused around dual arm manipulation, with publications accepted at major conferences like ICRA and IROS.
 <br><br>
 Beyond robotics, I have gained experience in software engineering as an intern at Stripe, where I developed an anomaly detection system, and have explored applied machine learning through various projects. I am driven by the goal of creating autonomous systems that can robustly perform meaningful tasks in the real world.
-<br><br>
+<br><br> -->
 <!-- Outside the lab, music plays a significant role in my life. I am a Grade 7 certified pianist from Trinity College of Music London and have represented my institution in various inter-college music competitions. I find that the discipline and creativity required in music complement my technical work in unexpected ways. When not immersed in research or playing piano, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity. -->
-Outside the lab, I lead a balanced life filled with music and sports. I am a Grade 7 certified pianist from Trinity College of Music London and have competed in various inter-college music competitions. I'm also an active participant in sports, having won competitions in both basketball and swimming. I find that the discipline from music and the teamwork from sports complement my technical work in unexpected ways. When not immersed in research, playing piano, or on the court, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity.
+<!-- Outside the lab, I lead a balanced life filled with music and sports. I am a Grade 7 certified pianist from Trinity College of Music London and have competed in various inter-college music competitions. I'm also an active participant in sports, having won competitions in both basketball and swimming. I find that the discipline from music and the teamwork from sports complement my technical work in unexpected ways. When not immersed in research, playing piano, or on the court, I love traveling and exploring new places. Experiencing different cultures broadens my perspective and fuels my curiosity. -->
 </span>
 
 <h3>Research Interests</h3>
@@ -224,24 +229,4 @@ My research interest lies in enabling robots to master complex, real-world manip
     </div>
   </div>
 </div>
-
-
-
-
-
-
-<!-- <div class="research-block">
-	<div class="left">
-		<span class="research-img">
-			<img src="/images/teasers/personalized.gif">
-		</span>
-	</div>
-	<div class="right">
-		<div class="title">Personalized One-Shot Lipreading for an ALS Patient</div>
-		<div class="sub-title"><b style="color:#a115a0">Bipasha Sen</b>*, Aditya Agarwal*, Rudrabha Mukhopadhyay, Vinay Namboodiri, C V Jawahar <i><br><b>BMVC 2021</b></i><a class="tab_paper" target="_blank" href="https://www.bmvc2021-virtualconference.com/assets/papers/1468.pdf">paper</a><a target="_blank"  class="tab_paper" href="https://youtu.be/_famGVaem-8">video</a><a target="_blank"  class="tab_paper" href="http://bhaasha.iiit.ac.in/lipwav">portal</a></div>
-		<span class="research-text">
-		We propose a personalized network to lipread an ALS patient using only one-shot examples. Our approach significantly improves and achieves high top-5accuracy with 83.2% accuracy compared to 62.6% achieved by comparable methods for the patient. Apart from evaluating our approach on the ALS patient, we also extend it to people with hearing impairment relying extensively on lip movements to communicate.
-		</span>
-	</div>
-</div> -->
 
