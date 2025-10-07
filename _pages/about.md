@@ -185,7 +185,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 <div class="project-block">
   <div class="left">
     <span class="project-img">
-      <img src="/images/posegraph.png" alt="Pose Graph Optimization">
+      <img src="" alt="Pose Graph Optimization">
     </span>
   </div>
   <div class="right">
@@ -203,7 +203,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 <div class="project-block">
   <div class="left">
     <span class="project-img">
-      <img src="/images/posegraph.png" alt="Stereo Dense Reconstruction">
+      <img src="" alt="Stereo Dense Reconstruction">
     </span>
   </div>
   <div class="right">
@@ -218,7 +218,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 <div class="project-block">
   <div class="left">
     <span class="project-img">
-      <img src="/images/posegraph.png" alt="Camera-IMU Calibration">
+      <img src="" alt="Camera-IMU Calibration">
     </span>
   </div>
   <div class="right">
