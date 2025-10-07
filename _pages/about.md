@@ -137,10 +137,98 @@ My research interest lies in enabling robots to master complex, real-world manip
 </ul>
 
 
+<style>
+  .project-block {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .project-block .left {
+    flex: 0 0 220px;
+    margin-right: 20px;
+  }
+
+  .project-block .left img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .project-block .right {
+    flex: 1;
+  }
+
+  .project-block .title {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 6px;
+  }
+
+  .project-block .sub-title {
+    color: #333;
+    line-height: 1.6em;
+    text-align: left;
+  }
+</style>
 
 
-<div class="recent_updates">Projects</div>
-<!-- Your projects will go here -->
+
+<div class="recent_updates" style="margin-top:30px;">Projects</div>
+
+<div class="project-block">
+  <div class="left">
+    <span class="project-img">
+      <img src="/images/posegraph.png" alt="Pose Graph Optimization">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title">Pose Graph Optimization for 2D SLAM</div>
+    <div class="sub-title">
+      Developed a pose graph-based <b>2D SLAM</b> system using nonlinear least squares optimization, integrating odometric and loop closure constraints to significantly improve robot trajectory accuracy.<br><br>
+      Utilized <b>Python</b> and libraries such as <b>NumPy</b> and <b>g2o</b> for algorithm implementation and evaluation against ground truth data.
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/icp-slam-the-ro-bots">Code</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="project-block">
+  <div class="left">
+    <span class="project-img">
+      <img src="/images/posegraph.png" alt="Stereo Dense Reconstruction">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title">Stereo Dense Reconstruction</div>
+    <div class="sub-title">
+      Developed a dense 3D reconstruction pipeline by applying OpenCV’s Semi-Global Block Matching (SGBM) algorithm to compute accurate disparity maps from rectified stereo image pairs. Leveraged camera calibration parameters and Open3D to generate and visualize detailed colored point clouds, enhancing scene understanding for autonomous robotic applications.
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/stereo-dense-reconstruction-the-ro-bots">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-block">
+  <div class="left">
+    <span class="project-img">
+      <img src="/images/posegraph.png" alt="Camera-IMU Calibration">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title">Camera-IMU Calibration</div>
+    <div class="sub-title">
+      Developed a precise calibration pipeline for synchronizing Intel RealSense camera and IMU sensors using ROS2, enabling accurate sensor fusion for enhanced motion tracking and environmental perception.
+      Implemented calibration algorithms to estimate extrinsic parameters, achieving low mean squared error (MSE) in orientation estimation and ensuring reliable alignment between camera and IMU data streams.
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/imu-camera-callibration-the-ro-bots">Code</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 
 <!-- <div class="research-block">
 	<div class="left">

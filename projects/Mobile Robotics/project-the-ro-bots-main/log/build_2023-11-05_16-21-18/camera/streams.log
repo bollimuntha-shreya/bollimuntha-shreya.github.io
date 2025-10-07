@@ -1,0 +1,102 @@
+[0.530s] Invoking command in '/home/faizal/ros2_ws/build/camera': CONDA_PROMPT_MODIFIER=(ros) PYTHONPATH=/home/faizal/ros2_ws/build/camera/prefix_override:/home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /home/faizal/miniconda3/envs/ros/bin/python setup.py develop --uninstall --editable --build-directory /home/faizal/ros2_ws/build/camera/build
+[0.617s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.617s] !!
+[0.617s] 
+[0.617s]         ********************************************************************************
+[0.618s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.618s]         versions. Please use the underscore name 'script_dir' instead.
+[0.618s] 
+[0.618s]         This deprecation is overdue, please update your project and remove deprecated
+[0.618s]         calls to avoid build errors in the future.
+[0.618s] 
+[0.618s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.618s]         ********************************************************************************
+[0.618s] 
+[0.618s] !!
+[0.618s]   opt = self.warn_dash_deprecation(opt, section)
+[0.703s] running develop
+[0.703s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.703s] !!
+[0.703s] 
+[0.703s]         ********************************************************************************
+[0.703s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.703s]         Instead, use pypa/build, pypa/installer or other
+[0.703s]         standards-based tools.
+[0.703s] 
+[0.703s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.703s]         ********************************************************************************
+[0.703s] 
+[0.704s] !!
+[0.704s]   easy_install.initialize_options(self)
+[0.718s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.718s] !!
+[0.718s] 
+[0.718s]         ********************************************************************************
+[0.718s]         Please avoid running ``setup.py`` directly.
+[0.718s]         Instead, use pypa/build, pypa/installer or other
+[0.718s]         standards-based tools.
+[0.718s] 
+[0.718s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.718s]         ********************************************************************************
+[0.718s] 
+[0.719s] !!
+[0.719s]   self.initialize_options()
+[0.779s] Removing /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera.egg-link (link to .)
+[0.796s] Invoked command in '/home/faizal/ros2_ws/build/camera' returned '0': CONDA_PROMPT_MODIFIER=(ros) PYTHONPATH=/home/faizal/ros2_ws/build/camera/prefix_override:/home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /home/faizal/miniconda3/envs/ros/bin/python setup.py develop --uninstall --editable --build-directory /home/faizal/ros2_ws/build/camera/build
+[0.799s] Invoking command in '/home/faizal/ros2_ws/src/camera': CONDA_PROMPT_MODIFIER=(ros) PYTHONPATH=/home/faizal/ros2_ws/build/camera/prefix_override:/home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /home/faizal/miniconda3/envs/ros/bin/python setup.py egg_info --egg-base ../../build/camera build --build-base /home/faizal/ros2_ws/build/camera/build install --record /home/faizal/ros2_ws/build/camera/install.log --install-scripts $base/lib/camera --single-version-externally-managed
+[0.885s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.885s] !!
+[0.885s] 
+[0.886s]         ********************************************************************************
+[0.886s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.886s]         versions. Please use the underscore name 'script_dir' instead.
+[0.886s] 
+[0.886s]         This deprecation is overdue, please update your project and remove deprecated
+[0.886s]         calls to avoid build errors in the future.
+[0.886s] 
+[0.886s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.886s]         ********************************************************************************
+[0.886s] 
+[0.886s] !!
+[0.887s]   opt = self.warn_dash_deprecation(opt, section)
+[0.935s] running egg_info
+[0.977s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[0.978s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[0.978s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[0.978s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[0.993s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] copying camera/image_subscriber.py -> /home/faizal/ros2_ws/build/camera/build/lib/camera
+[0.994s] running install
+[0.995s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.995s] !!
+[0.995s] 
+[0.995s]         ********************************************************************************
+[0.995s]         Please avoid running ``setup.py`` directly.
+[0.995s]         Instead, use pypa/build, pypa/installer or other
+[0.995s]         standards-based tools.
+[0.995s] 
+[0.995s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.995s]         ********************************************************************************
+[0.995s] 
+[0.996s] !!
+[0.996s]   self.initialize_options()
+[0.999s] running install_lib
+[1.007s] creating /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera
+[1.007s] copying /home/faizal/ros2_ws/build/camera/build/lib/camera/__init__.py -> /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera
+[1.007s] copying /home/faizal/ros2_ws/build/camera/build/lib/camera/talker_subscriber.py -> /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera
+[1.007s] copying /home/faizal/ros2_ws/build/camera/build/lib/camera/image_subscriber.py -> /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera
+[1.007s] byte-compiling /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera/__init__.py to __init__.cpython-38.pyc
+[1.008s] byte-compiling /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera/talker_subscriber.py to talker_subscriber.cpython-38.pyc
+[1.008s] byte-compiling /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera/image_subscriber.py to image_subscriber.cpython-38.pyc
+[1.008s] running install_data
+[1.015s] running install_egg_info
+[1.023s] Copying ../../build/camera/camera.egg-info to /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera-0.0.0-py3.8.egg-info
+[1.023s] running install_scripts
+[1.058s] Installing image_node script to /home/faizal/ros2_ws/install/camera/lib/camera
+[1.058s] Installing listen_node script to /home/faizal/ros2_ws/install/camera/lib/camera
+[1.058s] writing list of installed files to '/home/faizal/ros2_ws/build/camera/install.log'
+[1.075s] Invoked command in '/home/faizal/ros2_ws/src/camera' returned '0': CONDA_PROMPT_MODIFIER=(ros) PYTHONPATH=/home/faizal/ros2_ws/build/camera/prefix_override:/home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /home/faizal/miniconda3/envs/ros/bin/python setup.py egg_info --egg-base ../../build/camera build --build-base /home/faizal/ros2_ws/build/camera/build install --record /home/faizal/ros2_ws/build/camera/install.log --install-scripts $base/lib/camera --single-version-externally-managed

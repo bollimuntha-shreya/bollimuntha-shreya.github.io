@@ -1,0 +1,1 @@
+/home/faizal/ros2_ws/src/camera/setup.py

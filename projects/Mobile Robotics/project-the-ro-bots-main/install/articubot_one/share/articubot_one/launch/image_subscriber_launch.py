@@ -1,0 +1,1 @@
+/home/faizal/ros2_ws/src/articubot_one/launch/image_subscriber_launch.py

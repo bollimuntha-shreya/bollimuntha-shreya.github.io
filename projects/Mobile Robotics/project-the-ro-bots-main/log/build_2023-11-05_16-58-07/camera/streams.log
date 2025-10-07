@@ -1,0 +1,59 @@
+[0.560s] Invoking command in '/home/faizal/ros2_ws/build/camera': CONDA_PROMPT_MODIFIER=(ros) PYTHONPATH=/home/faizal/ros2_ws/build/camera/prefix_override:/home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /home/faizal/miniconda3/envs/ros/bin/python setup.py develop --editable --build-directory /home/faizal/ros2_ws/build/camera/build --no-deps install_data
+[0.656s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.656s] !!
+[0.656s] 
+[0.656s]         ********************************************************************************
+[0.656s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.656s]         versions. Please use the underscore name 'script_dir' instead.
+[0.656s] 
+[0.656s]         This deprecation is overdue, please update your project and remove deprecated
+[0.657s]         calls to avoid build errors in the future.
+[0.657s] 
+[0.657s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.657s]         ********************************************************************************
+[0.657s] 
+[0.657s] !!
+[0.657s]   opt = self.warn_dash_deprecation(opt, section)
+[0.758s] running develop
+[0.758s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.759s] !!
+[0.759s] 
+[0.759s]         ********************************************************************************
+[0.759s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.759s]         Instead, use pypa/build, pypa/installer or other
+[0.759s]         standards-based tools.
+[0.759s] 
+[0.759s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.759s]         ********************************************************************************
+[0.759s] 
+[0.759s] !!
+[0.759s]   easy_install.initialize_options(self)
+[0.775s] /home/faizal/miniconda3/envs/ros/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.775s] !!
+[0.775s] 
+[0.775s]         ********************************************************************************
+[0.775s]         Please avoid running ``setup.py`` directly.
+[0.775s]         Instead, use pypa/build, pypa/installer or other
+[0.776s]         standards-based tools.
+[0.776s] 
+[0.776s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.776s]         ********************************************************************************
+[0.776s] 
+[0.776s] !!
+[0.776s]   self.initialize_options()
+[0.844s] running egg_info
+[0.852s] writing camera.egg-info/PKG-INFO
+[0.852s] writing dependency_links to camera.egg-info/dependency_links.txt
+[0.852s] writing entry points to camera.egg-info/entry_points.txt
+[0.853s] writing requirements to camera.egg-info/requires.txt
+[0.853s] writing top-level names to camera.egg-info/top_level.txt
+[0.868s] reading manifest file 'camera.egg-info/SOURCES.txt'
+[0.869s] writing manifest file 'camera.egg-info/SOURCES.txt'
+[0.877s] running build_ext
+[0.877s] Creating /home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages/camera.egg-link (link to .)
+[0.878s] Installing image_node script to /home/faizal/ros2_ws/install/camera/lib/camera
+[0.878s] Installing listen_node script to /home/faizal/ros2_ws/install/camera/lib/camera
+[0.878s] 
+[0.878s] Installed /home/faizal/ros2_ws/build/camera
+[0.878s] running install_data
+[0.897s] Invoked command in '/home/faizal/ros2_ws/build/camera' returned '0': CONDA_PROMPT_MODIFIER=(ros) PYTHONPATH=/home/faizal/ros2_ws/build/camera/prefix_override:/home/faizal/ros2_ws/install/camera/lib/python3.8/site-packages:${PYTHONPATH} /home/faizal/miniconda3/envs/ros/bin/python setup.py develop --editable --build-directory /home/faizal/ros2_ws/build/camera/build --no-deps install_data
