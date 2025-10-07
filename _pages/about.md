@@ -140,7 +140,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 	<li><span class="updates-month">JAN '25</span> <span class="updates-content">"DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" accepted for presentation at <b>ICRA 2025</b><a target="_blank" href="https://dualarmvil.github.io/Dual-Arm-VIL/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
 </ul>
 
-
+<!-- 
 <style>
   .project-block {
     display: flex;
@@ -284,5 +284,5 @@ My research interest lies in enabling robots to master complex, real-world manip
       https://github.com/harsha20032020/ElectionsSpendsProject https://github.com/harsha20032020/Election-Ads/tree/main">Code</a>
     </div>
   </div>
-</div>
+</div> -->
 
