@@ -148,17 +148,7 @@ My research interest lies in enabling robots to master complex, real-world manip
     display: flex;
     align-items: flex-start;
     margin-bottom: 25px;
-  }
-
-  .project-block .left {
-    flex: 0 0 220px;
-    margin-right: 20px;
-  }
-
-  .project-block .left img {
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
   }
 
   .project-block .right {
@@ -166,21 +156,52 @@ My research interest lies in enabling robots to master complex, real-world manip
   }
 
   .project-block .title {
+    font-size: 18px;
     font-weight: 600;
-    font-size: 17px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
 
   .project-block .sub-title {
+    font-size: 15px;
     color: #333;
     line-height: 1.6em;
-    text-align: left;
+  }
+
+  .tab_paper {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 4px 10px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: background 0.2s;
+  }
+
+  .tab_paper:hover {
+    background-color: #e0e0e0;
   }
 </style>
 
 
 
 <div class="recent_updates" style="margin-top:30px;">Projects</div>
+
+
+<div class="project-block">
+  <div class="right">
+    <div class="title">Klann Mechanism</div>
+    <div class="sub-title">
+      Designed and simulated a Klann linkage mechanism to replicate legged locomotion using a six-bar linkage system. 
+      Implemented kinematic analysis and motion visualization in Python and MATLAB to study trajectory and walking stability.
+      <br><br>
+      <a target="_blank" class="tab_paper" href="https://github.com/yourusername/klann-mechanism">Code</a>
+    </div>
+  </div>
+</div>
+
+
 
 <div class="project-block">
   <div class="left">
@@ -192,7 +213,6 @@ My research interest lies in enabling robots to master complex, real-world manip
     <div class="title">Pose Graph Optimization for 2D SLAM</div>
     <div class="sub-title">
       Developed a pose graph-based <b>2D SLAM</b> system using nonlinear least squares optimization, integrating odometric and loop closure constraints to significantly improve robot trajectory accuracy.<br><br>
-      Utilized <b>Python</b> and libraries such as <b>NumPy</b> and <b>g2o</b> for algorithm implementation and evaluation against ground truth data.
       <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/icp-slam-the-ro-bots">Code</a>
     </div>
   </div>
@@ -209,7 +229,7 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">Stereo Dense Reconstruction</div>
     <div class="sub-title">
-      Developed a dense 3D reconstruction pipeline by applying OpenCV’s Semi-Global Block Matching (SGBM) algorithm to compute accurate disparity maps from rectified stereo image pairs. Leveraged camera calibration parameters and Open3D to generate and visualize detailed colored point clouds, enhancing scene understanding for autonomous robotic applications.
+      Developed a dense 3D reconstruction pipeline using OpenCV's SGBM algorithm to compute disparity maps from stereo images, generating detailed colored point clouds with Open3D for autonomous robotic scene understanding.<br><br>
       <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/stereo-dense-reconstruction-the-ro-bots">Code</a>
     </div>
   </div>
@@ -224,9 +244,24 @@ My research interest lies in enabling robots to master complex, real-world manip
   <div class="right">
     <div class="title">Camera-IMU Calibration</div>
     <div class="sub-title">
-      Developed a precise calibration pipeline for synchronizing Intel RealSense camera and IMU sensors using ROS2, enabling accurate sensor fusion for enhanced motion tracking and environmental perception.
-      Implemented calibration algorithms to estimate extrinsic parameters, achieving low mean squared error (MSE) in orientation estimation and ensuring reliable alignment between camera and IMU data streams.
+      Developed a precise camera-IMU calibration pipeline using ROS2 and Intel RealSense sensors to estimate extrinsic parameters, achieving low MSE in orientation estimation and enabling accurate sensor fusion for motion tracking.<br><br>
       <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/imu-camera-callibration-the-ro-bots">Code</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="project-block">
+  <div class="left">
+    <span class="project-img">
+      <img src="" alt="Megathon">
+    </span>
+  </div>
+  <div class="right">
+    <div class="title">Megathon : Social Media Personality Analysis</div>
+    <div class="sub-title">
+      Social Media Personality Analysis is an Android App that attempts to analyze if a person is more fit for a tech job or a sales job based on his social media activities and a psychometric test. The app gives out a percentage the person fits into each categories, making it easier for job recruiters to choose potential candidates.<br><br>
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Social-Media-Personality-Analysis">Code</a>
     </div>
   </div>
 </div>
