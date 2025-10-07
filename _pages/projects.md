@@ -62,7 +62,7 @@ author_profile: true
 
   .project-text a.tab_paper {
     display: inline-block;
-    background-color: #2c3e50;
+    background-color:rgba(159, 155, 214, 0.93) #afbdf5ff;
     color: #fff;
     padding: 6px 12px;
     border-radius: 6px;
@@ -72,7 +72,7 @@ author_profile: true
     transition: background-color 0.2s ease;
   }
   .project-text a.tab_paper:hover {
-    background-color: #a115a0;
+    background-color: #e08ce9ff;
   }
 </style>
 
