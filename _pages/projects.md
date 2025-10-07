@@ -6,87 +6,22 @@ author_profile: true
 
 <div class="recent_updates" style="margin-top:30px;">Projects</div>
 
-## Klann Mechanism
-**Mechanical Design, Simulation, Python/MATLAB**, 2024  
-<span class="research-text">
-Designed and simulated a Klann linkage mechanism to replicate legged locomotion using a six-bar linkage system. 
-Implemented kinematic analysis and motion visualization in Python and MATLAB to study trajectory and walking stability.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/yourusername/klann-mechanism">Code</a>
-
----
-
-## Pose Graph Optimization for 2D SLAM
-**Robotics, Optimization, Python**, 2023  
-<span class="research-text">
-Developed a pose graph-based <b>2D SLAM</b> system using nonlinear least squares optimization, integrating odometric and loop closure constraints to significantly improve robot trajectory accuracy.
-Implemented the algorithm in Python using NumPy and g2o, and benchmarked performance against ground-truth datasets.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/icp-slam-the-ro-bots">Code</a>
-
----
-
-## Stereo Dense Reconstruction
-**Computer Vision, 3D Reconstruction, OpenCV, Open3D**, 2023  
-<span class="research-text">
-Developed a dense 3D reconstruction pipeline using OpenCV's SGBM algorithm to compute disparity maps from stereo images. 
-Generated detailed colored point clouds with Open3D to enhance autonomous robotic scene understanding.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/stereo-dense-reconstruction-the-ro-bots">Code</a>
-
----
-
-## Camera-IMU Calibration
-**Sensor Fusion, ROS2, RealSense**, 2023  
-<span class="research-text">
-Developed a precise camera-IMU calibration pipeline using ROS2 and Intel RealSense sensors to estimate extrinsic parameters. 
-Achieved low mean square error in orientation estimation, enabling accurate sensor fusion for motion tracking.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/imu-camera-callibration-the-ro-bots">Code</a>
-
----
-
-## Megathon: Social Media Personality Analysis
-**Android, Machine Learning**, 2022  
-<span class="research-text">
-Developed an Android application that analyzes whether a person is better suited for tech or sales roles based on social media activity and a psychometric test. 
-Outputs category-fit percentages to assist job recruiters in evaluating candidates.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Social-Media-Personality-Analysis">Code</a>
-
----
-
-## Movie Recommender System
-**Reinforcement Learning, Recommendation Systems**, 2021  
-<span class="research-text">
-Built a movie recommendation system using collaborative filtering and reinforcement learning to predict user preferences and suggest relevant content based on viewing history.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Recommender-Systems">Code</a>
-
----
-
-## Precog – Election Classification
-**Machine Learning, NLP**, 2020  
-<span class="research-text">
-Worked on political tweet classification under the Precog Research Group. 
-Implemented text-based machine learning models to categorize election-related posts for sentiment and stance analysis.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Election-Classification">Code</a>
-
----
-
-## Precog – Election Spends Project
-**Data Analysis, Web Scraping, NLP**, 2020  
-<span class="research-text">
-Analyzed election campaign spending patterns and online advertisement data using scraping and NLP pipelines to identify trends in political outreach strategies.
-</span>  
-<a target="_blank" class="tab_paper" href="https://github.com/harsha20032020/ElectionsSpendsProject">Code</a>  
-<a target="_blank" class="tab_paper" href="https://github.com/harsha20032020/Election-Ads/tree/main">Code</a>
-
-
 <!-- # Projects -->
 
-## Robotics Projects
+<!-- Left-aligned subheading style -->
+<style>
+  .sub_heading {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;   /* left-align */
+    color: #333;        /* subtle color */
+  }
+</style>
+
+<div class="sub_heading">Robotics Projects</div>
+
 
 ### Klann Mechanism  
 **Mechanism Design, Kinematics, MATLAB, Python**  
@@ -117,7 +52,8 @@ Developed a precise camera–IMU calibration pipeline using ROS2 and Intel RealS
 </span>
 
 
-## AI & ML Projects
+<div class="sub_heading">AI & ML Projects</div>
+
 
 ### Megathon – Social Media Personality Analysis  
 **Android, NLP, Psychometric Analysis**  
