@@ -204,11 +204,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 
 
 <div class="project-block">
-  <div class="left">
-    <span class="project-img">
-      <img src="" alt="Pose Graph Optimization">
-    </span>
-  </div>
+  
   <div class="right">
     <div class="title">Pose Graph Optimization for 2D SLAM</div>
     <div class="sub-title">
@@ -221,11 +217,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 
 
 <div class="project-block">
-  <div class="left">
-    <span class="project-img">
-      <img src="" alt="Stereo Dense Reconstruction">
-    </span>
-  </div>
+ 
   <div class="right">
     <div class="title">Stereo Dense Reconstruction</div>
     <div class="sub-title">
@@ -236,11 +228,7 @@ My research interest lies in enabling robots to master complex, real-world manip
 </div>
 
 <div class="project-block">
-  <div class="left">
-    <span class="project-img">
-      <img src="" alt="Camera-IMU Calibration">
-    </span>
-  </div>
+  
   <div class="right">
     <div class="title">Camera-IMU Calibration</div>
     <div class="sub-title">
@@ -252,16 +240,50 @@ My research interest lies in enabling robots to master complex, real-world manip
 
 
 <div class="project-block">
-  <div class="left">
-    <span class="project-img">
-      <img src="" alt="Megathon">
-    </span>
-  </div>
+  
   <div class="right">
     <div class="title">Megathon : Social Media Personality Analysis</div>
     <div class="sub-title">
       Social Media Personality Analysis is an Android App that attempts to analyze if a person is more fit for a tech job or a sales job based on his social media activities and a psychometric test. The app gives out a percentage the person fits into each categories, making it easier for job recruiters to choose potential candidates.<br><br>
       <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Social-Media-Personality-Analysis">Code</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="project-block">
+  
+  <div class="right">
+    <div class="title">Movie-Recommender System</div>
+    <div class="sub-title">
+<br><br>
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Recommender-Systems">Code</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="project-block">
+  
+  <div class="right">
+    <div class="title">Precog - Election Classification</div>
+    <div class="sub-title">
+<br><br>
+      <a target="_blank" class="tab_paper" href="
+      https://github.com/bollimuntha-shreya/Election-Classification">Code</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="project-block">
+  
+  <div class="right">
+    <div class="title">Precog - Election Spends Project</div>
+    <div class="sub-title">
+<br><br>
+      <a target="_blank" class="tab_paper" href="
+      https://github.com/harsha20032020/ElectionsSpendsProject https://github.com/harsha20032020/Election-Ads/tree/main">Code</a>
     </div>
   </div>
 </div>
