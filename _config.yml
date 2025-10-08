@@ -86,7 +86,7 @@ analytics:
 # Site Author
 author:
   name             : "Bollimuntha Shreya"
-  avatar           : "Shreya.jpeg"
+  avatar           : "./Images_shreya/Profile_Picture/Shreya2.png"
   bio              : "IIIT Hyderabad"
   location         : "Hyderabad, India"
   employer         :

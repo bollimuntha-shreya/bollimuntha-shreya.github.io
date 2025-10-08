@@ -45,7 +45,7 @@ author_profile: true
   .project-tags {
     font-size: 14px;
     color: #fff;
-    background-color: #e08ce9ff;
+    background-color: #a115a0;
     padding: 3px 8px;
     border-radius: 5px;
     margin-right: 5px;
