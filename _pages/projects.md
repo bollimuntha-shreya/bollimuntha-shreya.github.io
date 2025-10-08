@@ -42,7 +42,7 @@ author_profile: true
     margin-bottom: 8px;
   }
 
-  .project-tags {
+  /* .project-tags {
     font-size: 14px;
     color: #fff;
     background-color: #a115a0;
@@ -51,7 +51,18 @@ author_profile: true
     margin-right: 5px;
     display: inline-block;
     margin-bottom: 10px;
-  }
+  } */
+
+  .project-tags {
+  font-size: 14px;
+  color: #333;
+  background-color: #e4d8ee; /* pale lilac */
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
 
   .project-text {
     font-size: 15px;
