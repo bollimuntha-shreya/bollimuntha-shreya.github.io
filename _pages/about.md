@@ -13,7 +13,7 @@ redirect_from:
 </div>
 <h3>About Me</h3>
 
-<span class="small_font">
+<span class="medium_font">
 I'm a robotics researcher in my final year of Dual Degree at IIIT Hyderabad, focused on developing intelligent robotic systems for complex manipulation tasks. At the <a target="_blank" href="https://robotics.iiit.ac.in/">Robotics Research Centre (RRC)</a>, I work under Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a> on dual-arm manipulation, with publications accepted at ICRA and IROS.<br><br>
 Beyond robotics, I gained software engineering experience at Stripe developing an anomaly detection system and have explored applied machine learning through various projects. My goal is to create autonomous systems that robustly perform meaningful tasks in real-world environments.<br><br>
 Outside the lab, I'm a Grade 7 certified pianist from Trinity College London and an active athlete, having competed at the state level in swimming and participated in CBSE South Zone chess competitions. I've won inter-college tournaments in swimming, basketball, and chess. I find that discipline from music and strategic thinking from sports complement my technical work. I also love traveling—experiencing different cultures broadens my perspective and fuels my curiosity.
@@ -30,7 +30,7 @@ Beyond robotics, I have gained experience in software engineering as an intern a
 </span>
 
 <h3>Research Interests</h3>
-<span class="small_font">
+<span class="medium_font">
 My research interest lies in enabling robots to master complex, real-world manipulation tasks with the fluidity and adaptability of humans. I am particularly drawn to the intersection of reinforcement learning, control theory, and optimization. My goal is to develop algorithms that allow robots, especially in dual-arm settings, to learn efficiently by leveraging underlying physical and kinematic models. I believe the future of robotics hinges not just on collecting massive datasets, but on creating sample-efficient learning frameworks that can reason about contact, dynamics, and collaboration to solve tasks that are currently beyond their reach.
 </span>
 

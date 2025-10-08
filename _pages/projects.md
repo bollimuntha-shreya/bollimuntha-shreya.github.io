@@ -112,14 +112,15 @@ author_profile: true
 <div class="project-card">
   <div class="project-title">Klann Mechanism</div>
   <span class="project-tags">Mechanism Design</span>
-  <span class="project-tags">Kinematics</span>
-  <span class="project-tags">MATLAB</span>
-  <span class="project-tags">Python</span>
-  <div class="project-text">
-    Designed and simulated a Klann linkage mechanism to replicate legged locomotion using a six-bar linkage system. Implemented kinematic analysis and motion visualization in Python and MATLAB to study trajectory and walking stability.  
+  <p class="project-text">
+    Designed and simulated a Klann linkage mechanism to replicate legged locomotion using a six-bar linkage system.
+    <br><br>
     <a target="_blank" class="tab_paper" href="https://github.com/yourusername/klann-mechanism">Code</a>
-  </div>
+    <a target="_blank" class="tab_paper" href="https://iiithydresearch-my.sharepoint.com/:p:/g/personal/shreya_bollimuntha_research_iiit_ac_in/EQVsGRQuhVFDsP3tfNkVm9wBOm5G-yeFYun7OkPFT8wzCw?e=cdbcKs">Presentation</a>
+    <a target="_blank" class="tab_paper" href="/Projects/MSD/Techamronics_Presentation.pptx">Presentation</a>
+  </p>
 </div>
+
 
 <div class="project-card">
   <div class="project-title">Pose Graph Optimization for 2D SLAM</div>
