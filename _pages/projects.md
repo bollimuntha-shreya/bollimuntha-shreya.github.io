@@ -72,6 +72,26 @@ author_profile: true
   }
 
   .project-text a.tab_paper {
+  display: inline-block;
+  background: linear-gradient(135deg, #bba4e3, #c9b6ec); /* soft lilac gradient */
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-right: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(187, 164, 227, 0.4);
+}
+
+.project-text a.tab_paper:hover {
+  background: linear-gradient(135deg, #a985e9, #c79ee8); /* slightly richer hover */
+  box-shadow: 0 4px 10px rgba(169, 133, 233, 0.5);
+  transform: translateY(-2px);
+}
+/* 
+
+  .project-text a.tab_paper {
     display: inline-block;
     background-color:rgba(159, 155, 214, 0.93) #afbdf5ff;
     color: #fff;
@@ -84,7 +104,7 @@ author_profile: true
   }
   .project-text a.tab_paper:hover {
     background-color: #e08ce9ff;
-  }
+  } */
 </style>
 
 <div class="sub_heading">Robotics Projects</div>
