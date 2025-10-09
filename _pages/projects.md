@@ -159,11 +159,12 @@ author_profile: true
   <span class="project-tags">PyBullet</span>
   <div class="project-text">
     Implemented advanced robotics planning algorithms for holonomic and non-holonomic robots in 2D simulated environments.  
- <ul style="margin-top: 8px;">
+   <ul style="margin-top: 8px;">
     <li>Developed <b>Rapidly-exploring Random Tree (RRT)</b> algorithms for safe navigation around dynamic and static obstacles.</li>
     <li>Designed <b>Model Predictive Control (MPC)</b> using the MPPI update rule for unicycle kinematics under velocity, acceleration, and lane constraints.  </li>
     <li>Modeled non-holonomic robot trajectories using <b>Bernstein polynomials</b>, incorporating obstacle avoidance and waypoint optimization with the CEM update rule.  </li>
     <li>Generated simulation videos, trajectory visualizations, and performance plots to validate algorithms.  </li>
+    </ul>
     <br><br>
     <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Robotics-Planning-and-Navigation">Code</a>
   </div>
@@ -202,7 +203,7 @@ author_profile: true
 </div>
 
 <div class="project-card">
-  <div class="project-title">Computer Vision Projects — Course Assignments</div>
+  <div class="project-title">Computer Vision</div>
   <span class="project-tags">Computer Vision</span>
   <span class="project-tags">Deep Learning</span>
   <span class="project-tags">PyTorch</span>
@@ -216,8 +217,8 @@ author_profile: true
       <li><b>Detection &amp; Tracking:</b> Developed Viola–Jones face detection and IoU-based multi-frame tracking for a movie clip; implemented and fine-tuned YOLOv8 detectors on the Open Images dataset, comparing pretrained vs. scratch models and dataset sizes.</li>
       <li><b>Segmentation &amp; Multimodal Learning:</b> Trained and evaluated U-Net models on Cityscapes, investigating the impact of skip connections on mIoU. Compared CLIP (Contrastive Language–Image Pretraining) and ImageNet-pretrained ResNet-50 encoders; evaluated FP16 inference speedups and memory savings.</li>
     </ul>
+    <b>Tools:</b> Python, PyTorch, OpenCV, scikit-learn, Ultralytics YOLO, Wandb, NumPy, Matplotlib  <br><br>
     <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Computer-Vision">Code</a>
-    <b>Tools:</b> Python, PyTorch, OpenCV, scikit-learn, Ultralytics YOLO, Wandb, NumPy, Matplotlib  
   </div>
 </div>
 
@@ -328,9 +329,6 @@ author_profile: true
     <a target="_blank" class="tab_paper" href="Projects/LnM/LNM Project - Effects of Virtual Reality on Spatial Memory Encoding_submission.pdf">Report</a>
   </div>
 </div>
-
-
-
 
 
 <div class="project-card">
