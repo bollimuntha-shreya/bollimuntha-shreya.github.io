@@ -4,7 +4,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-
 <div class="recent_updates" style="margin-top:30px; font-size:32px;">Projects</div>
 
 <style>
@@ -30,16 +29,25 @@ author_profile: true
     text-decoration: underline;
   }
 
-  /* Section headings */
+  /* Section headings with visual separation */
   .sub_heading {
     font-weight: 700;
     font-size: 28px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 20px;
+    padding-top: 30px;
     text-align: left;
     color: #2c3e50;
+    border-top: 3px solid #a115a0;
     border-left: 5px solid #a115a0;
-    padding-left: 10px;
+    padding-left: 15px;
+  }
+
+  /* First section without top border */
+  .sub_heading.first-section {
+    border-top: none;
+    margin-top: 30px;
+    padding-top: 0;
   }
 
   .section-description {
@@ -63,8 +71,8 @@ author_profile: true
     box-shadow: 0 8px 20px rgba(159, 155, 214, 0.93);
   }
 
-  /* Featured project styling */
-  .featured-card {
+  /* Highlighted project styling (not "featured") */
+  .highlight-card {
     background: linear-gradient(135deg, #faf8fc, #f0ebf5);
     border: 2px solid #c9b6ec;
   }
@@ -74,18 +82,6 @@ author_profile: true
     font-weight: 600;
     color: #1a1a1a;
     margin-bottom: 8px;
-  }
-
-  .featured-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, #a115a0, #c79ee8);
-    color: #fff;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 4px 10px;
-    border-radius: 12px;
-    margin-left: 8px;
-    vertical-align: middle;
   }
 
   .project-tags {
@@ -149,11 +145,11 @@ author_profile: true
     background-color: #f3eef8;
     border-radius: 8px;
     transition: background-color 0.2s ease;
-    list-style: none; /* Remove default arrow */
+    list-style: none;
   }
 
   summary::-webkit-details-marker {
-    display: none; /* Remove arrow in webkit browsers */
+    display: none;
   }
 
   summary::before {
@@ -183,30 +179,35 @@ author_profile: true
     font-size: 14px;
     color: #555;
   }
+
+  /* Section divider */
+  .section-divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #c9b6ec, transparent);
+    margin: 40px 0 20px 0;
+  }
 </style>
 
 <!-- Quick Navigation -->
 <div class="quick-nav">
   <strong>Jump to:</strong>
-  <a href="#featured">Featured Research</a> |
+  <a href="#motion-control">Motion Planning & Control</a> |
   <a href="#robotics-perception">Robotics & Perception</a> |
   <a href="#vision-ml">Computer Vision & ML</a> |
   <a href="#interdisciplinary">Interdisciplinary</a>
 </div>
 
 <!-- ============================================ -->
-<!-- FEATURED ROBOTICS RESEARCH -->
+<!-- MOTION PLANNING & CONTROL -->
 <!-- ============================================ -->
-<div class="sub_heading" id="featured">🌟 Featured Robotics Research</div>
+<div class="sub_heading first-section" id="motion-control">🤖 Motion Planning & Control</div>
 <p class="section-description">
-  Highlighting core robotics projects in motion planning, control, and SLAM that demonstrate research-level technical depth.
+  Research-level projects in model predictive control, SLAM, and bio-inspired mechanism design.
 </p>
 
-<div class="project-card featured-card">
-  <div class="project-title">
-    STORM: Stochastic Model Predictive Control Framework for xArm7 Manipulator
-    <span class="featured-badge">FEATURED</span>
-  </div>
+<div class="project-card highlight-card">
+  <div class="project-title">STORM: Stochastic Model Predictive Control Framework for xArm7 Manipulator</div>
   <span class="project-tags">Model Predictive Control</span>
   <span class="project-tags">Reactive Manipulation</span>
   <span class="project-tags">GPU Acceleration</span>
@@ -224,11 +225,8 @@ author_profile: true
   </div>
 </div>
 
-<div class="project-card featured-card">
-  <div class="project-title">
-    Pose Graph Optimization for 2D SLAM
-    <span class="featured-badge">FEATURED</span>
-  </div>
+<div class="project-card highlight-card">
+  <div class="project-title">Pose Graph Optimization for 2D SLAM</div>
   <span class="project-tags">SLAM</span>
   <span class="project-tags">Nonlinear Optimization</span>
   <span class="project-tags">Loop Closure</span>
@@ -246,11 +244,8 @@ author_profile: true
   </div>
 </div>
 
-<div class="project-card featured-card">
-  <div class="project-title">
-    Theo Jansen Walking Mechanism
-    <span class="featured-badge">FEATURED</span>
-  </div>
+<div class="project-card highlight-card">
+  <div class="project-title">Theo Jansen Walking Mechanism</div>
   <span class="project-tags">Mechatronics</span>
   <span class="project-tags">Mechanism Design</span>
   <span class="project-tags">Kinematics Simulation</span>
@@ -267,10 +262,35 @@ author_profile: true
   </div>
 </div>
 
+<details>
+  <summary>Robotics Planning & Navigation (RPN)</summary>
+  
+  <div class="project-card">
+    <div class="project-title">Robotics Planning & Navigation (RPN)</div>
+    <span class="project-tags">Path Planning</span>
+    <span class="project-tags">RRT</span>
+    <span class="project-tags">MPC</span>
+    <span class="project-tags">Bernstein Polynomials</span>
+    <span class="project-tags">Python</span>
+    <span class="project-tags">PyBullet</span>
+    <div class="project-text">
+      Implemented advanced planning algorithms for holonomic and non-holonomic robots in 2D PyBullet simulation environments:
+      <ul>
+        <li><b>RRT (Rapidly-exploring Random Tree):</b> Developed probabilistic path planning for safe navigation around dynamic and static obstacles with collision checking.</li>
+        <li><b>Model Predictive Control (MPC):</b> Designed MPC using the MPPI (Model Predictive Path Integral) update rule for unicycle kinematics under velocity, acceleration, and lane-keeping constraints.</li>
+        <li><b>Bernstein Polynomial Trajectories:</b> Modeled smooth, differentiable trajectories for non-holonomic robots using Bernstein basis functions, incorporating obstacle avoidance and waypoint optimization via the CEM (Cross-Entropy Method) update rule.</li>
+      </ul>
+      Generated simulation videos, trajectory visualizations, and quantitative performance metrics (path length, smoothness, compute time) to validate algorithm effectiveness.
+      <br><br>
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Robotics-Planning-and-Navigation">📂 Code</a>
+    </div>
+  </div>
+</details>
+
 <!-- ============================================ -->
 <!-- ROBOTICS & PERCEPTION -->
 <!-- ============================================ -->
-<div class="sub_heading" id="robotics-perception">🤖 Robotics & Perception</div>
+<div class="sub_heading" id="robotics-perception">👁️ Robotics Perception & Sensor Fusion</div>
 
 <div class="project-card">
   <div class="project-title">Stereo Dense Reconstruction</div>
@@ -302,35 +322,10 @@ author_profile: true
   </div>
 </div>
 
-<details>
-  <summary>Robotics Planning & Navigation (RPN)</summary>
-  
-  <div class="project-card">
-    <div class="project-title">Robotics Planning & Navigation (RPN)</div>
-    <span class="project-tags">Path Planning</span>
-    <span class="project-tags">RRT</span>
-    <span class="project-tags">MPC</span>
-    <span class="project-tags">Bernstein Polynomials</span>
-    <span class="project-tags">Python</span>
-    <span class="project-tags">PyBullet</span>
-    <div class="project-text">
-      Implemented advanced planning algorithms for holonomic and non-holonomic robots in 2D PyBullet simulation environments:
-      <ul>
-        <li><b>RRT (Rapidly-exploring Random Tree):</b> Developed probabilistic path planning for safe navigation around dynamic and static obstacles with collision checking.</li>
-        <li><b>Model Predictive Control (MPC):</b> Designed MPC using the MPPI (Model Predictive Path Integral) update rule for unicycle kinematics under velocity, acceleration, and lane-keeping constraints.</li>
-        <li><b>Bernstein Polynomial Trajectories:</b> Modeled smooth, differentiable trajectories for non-holonomic robots using Bernstein basis functions, incorporating obstacle avoidance and waypoint optimization via the CEM (Cross-Entropy Method) update rule.</li>
-      </ul>
-      Generated simulation videos, trajectory visualizations, and quantitative performance metrics (path length, smoothness, compute time) to validate algorithm effectiveness.
-      <br><br>
-      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Robotics-Planning-and-Navigation">📂 Code</a>
-    </div>
-  </div>
-</details>
-
 <!-- ============================================ -->
 <!-- COMPUTER VISION & ML -->
 <!-- ============================================ -->
-<div class="sub_heading" id="vision-ml">👁️ Computer Vision & ML</div>
+<div class="sub_heading" id="vision-ml">🔍 Computer Vision & Machine Learning</div>
 
 <div class="project-card">
   <div class="project-title">Enhancing Weak Planetary Signals in High-Contrast Exoplanet Imaging using Iterative RPCA</div>
@@ -474,7 +469,7 @@ author_profile: true
 <!-- ============================================ -->
 <!-- INTERDISCIPLINARY RESEARCH -->
 <!-- ============================================ -->
-<div class="sub_heading" id="interdisciplinary">🔬 Interdisciplinary Research</div>
+<div class="sub_heading" id="interdisciplinary">🧠 Interdisciplinary Research</div>
 <p class="section-description">
   Exploring cognitive neuroscience and behavioral research—skills transferable to human-robot interaction, AR/VR interfaces, and decision-making models.
 </p>
