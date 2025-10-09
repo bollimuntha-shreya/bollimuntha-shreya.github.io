@@ -89,36 +89,39 @@ author_profile: true
   box-shadow: 0 4px 10px rgba(169, 133, 233, 0.5);
   transform: translateY(-2px);
 }
-/* 
 
-  .project-text a.tab_paper {
-    display: inline-block;
-    background-color:rgba(159, 155, 214, 0.93) #afbdf5ff;
-    color: #fff;
-    padding: 6px 12px;
-    border-radius: 6px;
-    margin-right: 8px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.2s ease;
-  }
-  .project-text a.tab_paper:hover {
-    background-color: #e08ce9ff;
-  } */
 </style>
 
 <div class="sub_heading">Robotics Projects</div>
 
 <div class="project-card">
-  <div class="project-title">Klann Mechanism</div>
-  <span class="project-tags">Mechanism Design</span>
+  <div class="project-title">Theo Jansen Walking Mechanism</div>
+  <span class="project-tags">Mechatronics · Mechanism Design · Kinematics Simulation</span>
   <p class="project-text">
-    Designed and simulated a Klann linkage mechanism to replicate legged locomotion using a six-bar linkage system.
+    Designed and built a planar walking mechanism based on the Theo Jansen linkage. 
+    Developed a forward kinematic model in Python to simulate the gait and foot trajectory, 
+    fabricated the linkage using laser‑cut acrylic, and programmed Dynamixel servos for coordinated motion control. 
+    The project integrated analytical modeling, CAD design, and hardware implementation to achieve stable locomotion.
     <br><br>
-    <a target="_blank" class="tab_paper" href="https://github.com/yourusername/klann-mechanism">Code</a>
+    <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Techamronics">Code</a>
     <a target="_blank" class="tab_paper" href="https://iiithydresearch-my.sharepoint.com/:p:/g/personal/shreya_bollimuntha_research_iiit_ac_in/EQVsGRQuhVFDsP3tfNkVm9wBOm5G-yeFYun7OkPFT8wzCw?e=cdbcKs">Presentation</a>
-    <a target="_blank" class="tab_paper" href="/Projects/MSD/Techamronics_Presentation.pptx">Presentation</a>
   </p>
+</div>
+
+<div class="project-card">
+  <div class="project-title">STORM: Stochastic Model Predictive Control Framework for xArm7 Manipulator</div>
+  <span class="project-tags">Model Predictive Control</span>
+  <span class="project-tags">Reactive Manipulation</span>
+  <span class="project-tags">GPU Acceleration</span>
+  <span class="project-tags">PyTorch</span>
+  <span class="project-tags">ROS</span>
+  <div class="project-text">
+    Adapted and deployed the open-source STORM MPC framework on the 7-DOF xArm7 robot to enable real-time, joint-space motion planning and control. 
+    Implemented GPU-accelerated trajectory sampling and feedback-driven optimization at 100 Hz for reactive pose tracking and obstacle avoidance. 
+    Modified robot-specific kinematic models, control interfaces, and implemented filtering for robust state estimation and smooth motion generation.  
+    <br><br>
+    <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/STORM">Code</a>
+  </div>
 </div>
 
 
@@ -147,6 +150,25 @@ author_profile: true
 </div>
 
 <div class="project-card">
+  <div class="project-title">Robotics Planning & Navigation (RPN)</div>
+  <span class="project-tags">Path Planning</span>
+  <span class="project-tags">RRT</span>
+  <span class="project-tags">MPC</span>
+  <span class="project-tags">Bernstein Polynomials</span>
+  <span class="project-tags">Python</span>
+  <span class="project-tags">PyBullet</span>
+  <div class="project-text">
+    Implemented advanced robotics planning algorithms for holonomic and non-holonomic robots in 2D simulated environments.  
+    - Developed **Rapidly-exploring Random Tree (RRT)** algorithms for safe navigation around dynamic and static obstacles.  
+    - Designed **Model Predictive Control (MPC)** using the MPPI update rule for unicycle kinematics under velocity, acceleration, and lane constraints.  
+    - Modeled non-holonomic robot trajectories using **Bernstein polynomials**, incorporating obstacle avoidance and waypoint optimization with the CEM update rule.  
+    - Generated simulation videos, trajectory visualizations, and performance plots to validate algorithms.  
+    <br><br>
+    <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Robotics-Planning-and-Navigation">Code</a>
+  </div>
+</div>
+
+<div class="project-card">
   <div class="project-title">Camera–IMU Calibration</div>
   <span class="project-tags">Sensor Fusion</span>
   <span class="project-tags">ROS2</span>
@@ -157,6 +179,33 @@ author_profile: true
     <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Ro-Bots/tree/main/imu-camera-callibration-the-ro-bots">Code</a>
   </div>
 </div>
+
+
+<div class="sub_heading">Computer Vision Projects</div>
+
+<div class="project-card">
+  <div class="project-title">Computer Vision Projects — Course Assignments</div>
+  <span class="project-tags">Computer Vision</span>
+  <span class="project-tags">Deep Learning</span>
+  <span class="project-tags">PyTorch</span>
+  <span class="project-tags">OpenCV</span>
+  <span class="project-tags">YOLO</span>
+  <span class="project-tags">U-Net</span>
+  <div class="project-text">
+    Explored classical and modern approaches for image understanding and visual perception.
+    <ul style="margin-top: 8px;">
+      <li><b>Image Classification:</b> Implemented handwritten digit recognition on the MNIST dataset using both classical (SIFT + Bag of Visual Words + SVM) and deep learning methods (CNNs and Vision Transformers). Analyzed the effect of hyperparameter variations on accuracy and data efficiency.</li>
+      <li><b>Detection &amp; Tracking:</b> Developed Viola–Jones face detection and IoU-based multi-frame tracking for a movie clip; implemented and fine-tuned YOLOv8 detectors on the Open Images dataset, comparing pretrained vs. scratch models and dataset sizes.</li>
+      <li><b>Segmentation &amp; Multimodal Learning:</b> Trained and evaluated U-Net models on Cityscapes, investigating the impact of skip connections on mIoU. Compared CLIP (Contrastive Language–Image Pretraining) and ImageNet-pretrained ResNet-50 encoders; evaluated FP16 inference speedups and memory savings.</li>
+    </ul>
+    <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Computer-Vision">Code</a>
+    <b>Tools:</b> Python, PyTorch, OpenCV, scikit-learn, Ultralytics YOLO, Wandb, NumPy, Matplotlib  
+  </div>
+</div>
+
+
+
+
 
 <div class="sub_heading">AI & ML Projects</div>
 

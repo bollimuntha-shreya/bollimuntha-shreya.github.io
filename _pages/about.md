@@ -13,7 +13,7 @@ redirect_from:
 </div>
 <h3>About Me</h3>
 
-<span class="medium_font">
+<span class="large_font">
 I'm a robotics researcher in my final year of Dual Degree at IIIT Hyderabad, focused on developing intelligent robotic systems for complex manipulation tasks. At the <a target="_blank" href="https://robotics.iiit.ac.in/">Robotics Research Centre (RRC)</a>, I work under Prof. <a target="_blank" href="https://www.iiit.ac.in/people/faculty/mkrishna/">K. Madhava Krishna</a> and Prof. <a target="_blank" href="https://nagamanigi.wixsite.com/home">Nagamanikandan Govindan</a> on dual-arm manipulation, with publications accepted at ICRA and IROS.<br><br>
 Beyond robotics, I gained software engineering experience at Stripe developing an anomaly detection system and have explored applied machine learning through various projects. My goal is to create autonomous systems that robustly perform meaningful tasks in real-world environments.<br><br>
 Outside the lab, I'm a Grade 7 certified pianist from Trinity College London and an active athlete, having competed at the state level in swimming and participated in CBSE South Zone chess competitions. I've won inter-college tournaments in swimming, basketball, and chess. I find that discipline from music and strategic thinking from sports complement my technical work. I also love traveling—experiencing different cultures broadens my perspective and fuels my curiosity.
@@ -30,7 +30,7 @@ Beyond robotics, I have gained experience in software engineering as an intern a
 </span>
 
 <h3>Research Interests</h3>
-<span class="medium_font">
+<span class="large_font">
 My research interest lies in enabling robots to master complex, real-world manipulation tasks with the fluidity and adaptability of humans. I am particularly drawn to the intersection of reinforcement learning, control theory, and optimization. My goal is to develop algorithms that allow robots, especially in dual-arm settings, to learn efficiently by leveraging underlying physical and kinematic models. I believe the future of robotics hinges not just on collecting massive datasets, but on creating sample-efficient learning frameworks that can reason about contact, dynamics, and collaboration to solve tasks that are currently beyond their reach.
 </span>
 
@@ -139,6 +139,22 @@ My research interest lies in enabling robots to master complex, real-world manip
 	<li><span class="updates-month">APR '25</span> <span class="updates-content">Served as reviewer for <a target="_blank" href="https://2025.ieee-icra.org/">ICRA 2025</a>.</span></li>
 	<li><span class="updates-month">JAN '25</span> <span class="updates-content">"DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" accepted for presentation at <b>ICRA 2025</b><a target="_blank" href="https://dualarmvil.github.io/Dual-Arm-VIL/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
 </ul>
+
+<div class="recent_updates">News and Announcements</div>
+ <ul style="margin-top:-3px" class="updates">
+	<!-- <li><span class="updates-month">JUL '24</span> <span class="large_font">"Constrained 6-DoF Grasp Generation on Complex Shapes for Improved Dual-Arm Manipulation" accepted at <b>IROS 2024</b>!</span></li>
+	<li><span class="updates-month">JAN '24</span> <span class="large_font">2 papers accepted at <b>ICRA 2024</b>!</span></li>
+	<li><span class="updates-month">NOV '23</span> <span class="large_font">Presented "EDMP: Ensemble-of-costs-guided Diffusion for Motion Planning" at <b>CoRL Workshop 2023</b><a target="_blank" href="https://sites.google.com/view/corl2023-prl/home"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!</span></li> -->
+
+  <!-- <li><span class="updates-month">OCT '25</span> <span class="large_font">Presented "DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps" at <b>IROS 2025</b> in Hangzhou, China.</span></li> -->
+  <li><span class="updates-month">JUL '25</span> <span class="large_font">Completed internship at <a target="_blank" href="https://stripe.com/in">Stripe</a>! Invited for a Friday Fireside Chat with John and Patrick Collison to present my work done at the internship.</span></li>
+	<li><span class="updates-month">JUN '25</span> <span class="large_font">"DG16M: A Large-Scale Dataset for Dual-Arm Grasping with Force-Optimized Grasps" accepted at <b>IROS 2025</b><a target="_blank" href="https://dg16m.github.io/DG-16M/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
+  <li><span class="updates-month">MAY '25</span> <span class="large_font">Presented "DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" at <b>ICRA 2025</b> in Atlanta, USA.</span></li>
+  <li><span class="updates-month">MAY '25</span> <span class="large_font">Started internship at <a target="_blank" href="https://stripe.com/in">Stripe</a>!</span></li>
+	<li><span class="updates-month">APR '25</span> <span class="large_font">Served as reviewer for <a target="_blank" href="https://2025.ieee-icra.org/">ICRA 2025</a>.</span></li>
+	<li><span class="updates-month">JAN '25</span> <span class="large_font">"DA-VIL: Adaptive Dual-Arm Manipulation with Reinforcement Learning and Variable Impedance Control" accepted for presentation at <b>ICRA 2025</b><a target="_blank" href="https://dualarmvil.github.io/Dual-Arm-VIL/"><img src="/images/link.png" width=18px height=18px style="margin: -7px 5px 0 5px;"></a>!🎉</span></li>
+</ul>
+
 
 <!-- 
 <style>
