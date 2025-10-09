@@ -159,10 +159,11 @@ author_profile: true
   <span class="project-tags">PyBullet</span>
   <div class="project-text">
     Implemented advanced robotics planning algorithms for holonomic and non-holonomic robots in 2D simulated environments.  
-    - Developed **Rapidly-exploring Random Tree (RRT)** algorithms for safe navigation around dynamic and static obstacles.  
-    - Designed **Model Predictive Control (MPC)** using the MPPI update rule for unicycle kinematics under velocity, acceleration, and lane constraints.  
-    - Modeled non-holonomic robot trajectories using **Bernstein polynomials**, incorporating obstacle avoidance and waypoint optimization with the CEM update rule.  
-    - Generated simulation videos, trajectory visualizations, and performance plots to validate algorithms.  
+ <ul style="margin-top: 8px;">
+    <li>Developed <b>Rapidly-exploring Random Tree (RRT)</b> algorithms for safe navigation around dynamic and static obstacles.</li>
+    <li>Designed <b>Model Predictive Control (MPC)</b> using the MPPI update rule for unicycle kinematics under velocity, acceleration, and lane constraints.  </li>
+    <li>Modeled non-holonomic robot trajectories using <b>Bernstein polynomials</b>, incorporating obstacle avoidance and waypoint optimization with the CEM update rule.  </li>
+    <li>Generated simulation videos, trajectory visualizations, and performance plots to validate algorithms.  </li>
     <br><br>
     <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Robotics-Planning-and-Navigation">Code</a>
   </div>
@@ -184,6 +185,23 @@ author_profile: true
 <div class="sub_heading">Computer Vision Projects</div>
 
 <div class="project-card">
+  <div class="project-title">Enhancing Weak Planetary Signals in High-Contrast Exoplanet Imaging using Iterative RPCA</div>
+  <span class="project-tags">Astrophysics</span>
+  <span class="project-tags">Computer Vision</span>
+  <span class="project-tags">Machine Learning</span>
+  <span class="project-tags">Python</span>
+
+  <div class="project-text">
+    Developed a novel iterative robust PCA model integrating SVD-based decomposition and Angular Differential Imaging (ADI) for separating faint planetary signals from stellar noise.
+    <ul style="margin-top: 8px;">
+      <li>Achieved uniform SNR enhancement and reduced quasi-static speckles on ESO–VLT SPHERE data of β Pictoris b.</li>
+      <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Iterative-RPCA-Exoplanet-Imaging">Code</a>
+    </ul>
+    <b>Tools:</b> Python, NumPy, OpenCV, scikit-learn, Matplotlib
+  </div>
+</div>
+
+<div class="project-card">
   <div class="project-title">Computer Vision Projects — Course Assignments</div>
   <span class="project-tags">Computer Vision</span>
   <span class="project-tags">Deep Learning</span>
@@ -203,7 +221,49 @@ author_profile: true
   </div>
 </div>
 
+<div class="project-card">
+  <div class="project-title">Digital Image Processing</div>
+  <span class="project-tags">Image Processing</span>
+  <span class="project-tags">Computer Vision</span>
+  <span class="project-tags">Python</span>
+  <span class="project-tags">OpenCV</span>
+  <span class="project-tags">NumPy</span>
 
+  <div class="project-text">
+    Implemented classical and advanced image-processing algorithms from scratch and using OpenCV to develop a comprehensive understanding of spatial, frequency, and feature-space techniques.
+    <ul style="margin-top: 8px;">
+      <li><b>Core Image Operations:</b> Implemented pixel-level brightness/contrast adjustments, grayscale ↔ pseudocolor conversion, and video manipulation without high-level library calls.</li>
+      <li><b>Histogram &amp; Quantization:</b> Wrote custom <code>histequalize()</code>; performed bit-depth quantization; created encryption/decryption functions using LSB-based steganography.</li>
+      <li><b>Filtering &amp; Edge Detection:</b> Developed mean, median, Gaussian, bilateral, Sobel, Prewitt, Roberts, and Laplacian filters manually; analyzed spatial vs. frequency-domain behavior.</li>
+      <li><b>Morphological Processing:</b> Segmented overlapping coins and verified signatures through custom erosion, dilation, and skeletonization routines.</li>
+      <li><b>Segmentation &amp; Feature Detection:</b> Applied Otsu and adaptive thresholding, Hough line/circle detection, and Harris corner detection for geometric feature extraction.</li>
+    </ul>
+        <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Digital-Image-Processing">Code</a>
+    <b>Tools:</b> Python, NumPy, OpenCV, Matplotlib, scikit-image
+  </div>
+</div>
+
+
+<div class="sub_heading">SMAI</div>
+
+<div class="project-card">
+  <div class="project-title">Statistical Methods in Artificial Intelligence — Course Projects & Mini Project | IIIT Hyderabad</div>
+  <span class="project-tags">Machine Learning</span>
+  <span class="project-tags">Deep Learning</span>
+  <span class="project-tags">Python</span>
+  <span class="project-tags">PyTorch</span>
+
+  <div class="project-text">
+    Developed multiple ML and AI pipelines from scratch and using libraries, demonstrating strong understanding of statistical learning theory, model evaluation, and neural architectures.
+    <ul style="margin-top: 8px;">
+      <li>Implemented Decision Trees, kNN, Naive Bayes, GMMs, Clustering Metrics (from scratch), and PCA Eigenface Recognition.</li>
+      <li>Built CNN and Autoencoder models on CIFAR-10 and MNIST datasets, and RNN–LSTM networks for IMDB sentiment analysis.</li>
+      <li>Final Kaggle mini-project on Age Prediction from Facial Images using transfer learning (VGG16), achieving strong leaderboard performance.</li>
+    </ul>
+        <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Statistical-Methods-in-AI">Code</a>
+    <b>Tools:</b> Python, NumPy, scikit-learn, PyTorch, Matplotlib, pandas
+  </div>
+</div>
 
 
 
@@ -254,3 +314,36 @@ author_profile: true
   </div>
 </div>
 
+
+
+<div class="project-card">
+  <div class="project-title">Effects of Virtual Reality on Spatial Memory Encoding — Cognitive Neuroscience Study</div>
+  <span class="project-tags">Cognitive Neuroscience</span>
+  <span class="project-tags">Virtual Reality</span>
+  <span class="project-tags">Experimental Design</span>
+
+  <div class="project-text">
+    Designed a between‑subjects experiment investigating how immersive VR vs. real‑world environments affect spatial memory encoding and retrieval. Participants (ages 18–40) were trained and tested across three complexity levels (object placement, route navigation, maze navigation) in matched environments. Measured recall alignment error, recall time, and hypothesized brain activation patterns (hippocampus, MEC). Results demonstrated superior spatial recall in real‑world encoding, highlighting sensorimotor engagement's role in memory consolidation and VR's limitations in complex spatial tasks.
+    <br><br>
+    <a target="_blank" class="tab_paper" href="Projects/LnM/LNM Project - Effects of Virtual Reality on Spatial Memory Encoding_submission.pdf">Report</a>
+  </div>
+</div>
+
+
+
+
+
+<div class="project-card">
+  <div class="project-title">Gender Differences in Reward-Based Effort — Behavioral Research Project</div>
+  <span class="project-tags">Behavioral Research</span>
+  <span class="project-tags">Decision Making</span>
+  <span class="project-tags">Statistical Analysis</span>
+  <span class="project-tags">Mixed-Effects Models</span>
+
+  <div class="project-text">
+    Replicated and extended a Nature study on gender differences in cost-benefit decision-making by analyzing effort allocation across 81 participants using mixed-effects models, Kruskal-Wallis tests, and post-hoc analyses. The study confirmed that vagus nerve stimulation significantly enhances reward-driven motivation (p &lt; 0.001) and demonstrated that gender independently modulates effort maintenance, providing new insights into the interplay between physiological interventions and behavioral decision-making.
+    <br><br>
+    <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Gender-Reward-Effort-Behavioral-Study/blob/main/BRSM_Project_Final_Report.pdf">Code</a>
+    <a target="_blank" class="tab_paper" href="https://github.com/bollimuntha-shreya/Gender-Reward-Effort-Behavioral-Study/blob/main/Project_Analysis.ipynb">Report</a>  
+  </div>
+</div>
